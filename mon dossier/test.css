@@ -1,0 +1,45 @@
+
+
+       button{
+          display:block;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+          font-size: 35px;padding: 20px 150px;border-radius: 30px;background-color: blue;margin-block-end:50px;
+          font-weight: lighter;color:wheat;background: wheat;outline: none;border: none;cursor: pointer;
+          box-shadow: 10px 10px white;margin: 50px auto;
+        }
+
+        
+          body{background-color: black;}
+
+          button:hover{box-shadow: 0 4px;}
+          button:active{box-shadow: 0 0 whitesmoke;top: 10px;}
+          
+           
+           .carte{
+
+      width: 90%; max-width:440px ;color: rgb(255, 255, 255);text-align: center;padding: 50px 30px;
+          border: 1px solid rgba(255,255,255 ,0.3);position: relative;bottom: 50px;
+                                                        }
+
+.carte img{
+width: 150px;border-radius: 50%;
+
+
+}
+
+.carte .reseau img{
+    width: 80px;border-radius: 50%;margin: 10px 5px;transition: background 0.5s;
+}
+ .carte .reseau img:hover{
+                             background: rgba(228, 233, 234, 0.425);
+ }
+
+ #about{background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(inf.JPG);background-attachment: fixed;}
+
+
+ p{color: aliceblue;position: relative;left: 550px;bottom: 500px;font-size: 25px;}
+
+ 
+
+ 
+ #work{position: relative;bottom: 350px;}
+
